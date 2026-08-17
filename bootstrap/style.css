@@ -39,3 +39,24 @@ body {
   - cores de fundo e texto do header     → Bootstrap bg-danger, text-white resolvem
   - responsividade com @media            → Bootstrap breakpoints resolvem
 */
+
+:root {
+  --cor-categoria-marrom: #8B4513;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.card-prato {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card-prato:hover {
+  transform: translateY(-4px);
+}
+
+.categoria {
+  color: var(--cor-categoria-marrom);
+}
